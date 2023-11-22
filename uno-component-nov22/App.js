@@ -3,6 +3,7 @@ import './App.css';
 import Mycomponents from './reat-components/mycomponents';
 import Color from './reat-components/colors';
 import Table from './uno-component-nov22/table';
+import Image from './uno-component-nov22/image';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   <Mycomponents/>
   <Color/>
   <Table/>
+  <Image/>
   </div> 
   );
 }
