@@ -5,7 +5,7 @@ class Components extends Component {
      } 
      pressButton=()=>{
         console.log("Buttonpressed!");
-        {this.setState({counter:this.state.counter+1})}
+        this.setState({counter:this.state.counter+1})
      }
     render() { 
         return (
